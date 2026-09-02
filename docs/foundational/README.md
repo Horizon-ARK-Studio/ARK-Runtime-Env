@@ -15,6 +15,10 @@
   allowed to own what, between ARE's own code and the Linux/GNOME
   services (D-Bus, NetworkManager, the audio server, systemd/logind)
   that actually hold most of the state ARE displays and acts on.
+* [FRONTEND-VUE3-REFACTOR.md](FRONTEND-VUE3-REFACTOR.md) -- Stage 0
+  plan for porting `src/frontend/`'s vendored GNOME Shell reference
+  source into a Vue 3 SPA: target layout, the file-by-file porting
+  method, and which vendored files feed which v1/v2/v3 stage.
 
 ---
 
@@ -23,7 +27,10 @@
 New to the project? `PROBLEM-STATEMENT.md` first, then `ROADMAP.md`
 for the current stage, then `SYSTEM-DESIGN-AGREEMENTS.md` before
 touching anything that reads or changes system state, then
-`CODE-STYLE.md` once you're actually about to write code.
+`CODE-STYLE.md` once you're actually about to write code. Working on
+the frontend specifically? `FRONTEND-VUE3-REFACTOR.md` after
+`CODE-STYLE.md` -- it refines that document's frontend layout into the
+concrete Vue 3 target and the plan for getting there.
 
 ## Philosophy
 
