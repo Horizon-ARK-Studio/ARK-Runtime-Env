@@ -19,6 +19,11 @@
   plan for porting `src/frontend/`'s vendored GNOME Shell reference
   source into a Vue 3 SPA: target layout, the file-by-file porting
   method, and which vendored files feed which v1/v2/v3 stage.
+* [DEPLOYMENT.md](DEPLOYMENT.md) -- where the WebView loads the built
+  SPA from: a Cloudflare-hosted dev-loop preview with a stubbed
+  bridge, versus the local/remote toggle for a real launcher install
+  -- and why the bridge itself never leaves the local machine either
+  way.
 
 ---
 
@@ -30,7 +35,10 @@ touching anything that reads or changes system state, then
 `CODE-STYLE.md` once you're actually about to write code. Working on
 the frontend specifically? `FRONTEND-VUE3-REFACTOR.md` after
 `CODE-STYLE.md` -- it refines that document's frontend layout into the
-concrete Vue 3 target and the plan for getting there.
+concrete Vue 3 target and the plan for getting there. Setting up how
+the built SPA gets served, whether that's your own dev-loop preview
+or the launcher's local/remote toggle? `DEPLOYMENT.md`, after
+`FRONTEND-VUE3-REFACTOR.md`.
 
 ## Philosophy
 
