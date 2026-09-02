@@ -7,6 +7,10 @@
 * [bugs-caught/README.md](bugs-caught/README.md) -- active bug
   tracker. Bugs stay listed here until fixed, tested, and confirmed
   working.
+* [vendored/README.md](vendored/README.md) -- index for third-party
+  source kept in the repo for reference, starting with the GNOME
+  Shell JS/SCSS pulled into `src/frontend/` as the base for the Vue 3
+  frontend rewrite.
 
 ---
 
